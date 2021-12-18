@@ -1,0 +1,41 @@
+*{margin:0px;padding:0px;}
+nav{
+  width:100%;
+  height:50px;
+  background-color:black;}
+nav a,ul{
+  display: flex ;
+  flex-direction: row ;
+  flex-wrap: wrap ;
+  justify-content: space-around ;
+  align-items: center ;
+  align-content: center ;
+}
+nav li {list-style-type:none;}
+nav a {text-decoration: none;
+font-size:20px;
+  color:white;
+}
+p {
+  line-height:1.5;
+  text-indent: 50px;
+  margin-left:20px;
+  margin-right:20px;
+  text-align: justify;
+  font-size:20px;
+}
+h1 {
+  text-align: center;
+}
+.fotoPrincipal {
+  width:560px;
+  height:315px;
+}
+p2 {
+  line-height:1.5;
+  text-indent: 50px;
+  margin-left:50px;
+  margin-right:20px;
+  text-align: justify;
+  font-size:15px;
+}
